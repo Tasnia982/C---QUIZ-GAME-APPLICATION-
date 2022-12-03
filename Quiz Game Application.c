@@ -44,12 +44,12 @@ void last_menu()
     gotoxy(25,2);
     printf("Are you want to go Home Page or again play with another topic ?");
     gotoxy(30,4);
-    printf("If you Want to go home page press 1 !!!");
+    printf("If you Want to go home page press 1!!!");
     gotoxy(30,6);
     printf(" If you Want play again  press 2 !!!");
-    gotoxy(30,4);
-    printf("1.Home Page \t\t\t 2.Start Again ");
     gotoxy(30,8);
+    printf("1.Home Page \t\t\t 2.Start Again ");
+    gotoxy(30,10);
     printf("->");
     scanf("%d",&op);
     if(op==1)
@@ -1578,4 +1578,5 @@ int main()
 {
     mainmenu();
 }
+
 
